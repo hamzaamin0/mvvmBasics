@@ -13,6 +13,8 @@
 		04F3416B270FE8AF00923404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F34169270FE8AF00923404 /* Main.storyboard */; };
 		04F3416D270FE8B900923404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F3416C270FE8B900923404 /* Assets.xcassets */; };
 		04F34170270FE8B900923404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F3416E270FE8B900923404 /* LaunchScreen.storyboard */; };
+		04F3417F270FED0300923404 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3417D270FED0200923404 /* CustomTableViewCell.swift */; };
+		04F34180270FED0300923404 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F3417E270FED0300923404 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04F3416C270FE8B900923404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F3416F270FE8B900923404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F34171270FE8B900923404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F3417D270FED0200923404 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		04F3417E270FED0300923404 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				04F3416C270FE8B900923404 /* Assets.xcassets */,
 				04F3416E270FE8B900923404 /* LaunchScreen.storyboard */,
 				04F34171270FE8B900923404 /* Info.plist */,
+				04F3417D270FED0200923404 /* CustomTableViewCell.swift */,
+				04F3417E270FED0300923404 /* CustomTableViewCell.xib */,
 			);
 			path = MVVMSampleProject;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				04F34170270FE8B900923404 /* LaunchScreen.storyboard in Resources */,
 				04F3416D270FE8B900923404 /* Assets.xcassets in Resources */,
+				04F34180270FED0300923404 /* CustomTableViewCell.xib in Resources */,
 				04F3416B270FE8AF00923404 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				04F34168270FE8AF00923404 /* ViewController.swift in Sources */,
 				04F34164270FE8AF00923404 /* AppDelegate.swift in Sources */,
+				04F3417F270FED0300923404 /* CustomTableViewCell.swift in Sources */,
 				04F34166270FE8AF00923404 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,13 +295,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Y57BU28X8;
+				DEVELOPMENT_TEAM = UVSDLMQ6PH;
 				INFOPLIST_FILE = MVVMSampleProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.droptech.MVVMSampleProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzaamin.MVVMSampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,13 +314,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Y57BU28X8;
+				DEVELOPMENT_TEAM = UVSDLMQ6PH;
 				INFOPLIST_FILE = MVVMSampleProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.droptech.MVVMSampleProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzaamin.MVVMSampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
